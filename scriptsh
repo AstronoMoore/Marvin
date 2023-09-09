@@ -1,0 +1,8 @@
+#!/bin/bash
+while read line; do
+# reading each line
+
+echo $line
+python download_atlas_lc.py $line
+
+done
